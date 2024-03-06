@@ -27,7 +27,7 @@ const VideoItem = ({ video, index, currentVideoIndex, onClick, provided }) => {
         </div>
         <div className="flex">
           <div className="flex items-center">
-            <img src={video.imageURL} className="w-26 h-20" alt={video.title} />
+            <img src={video.thumb} className="w-26 h-20" alt={video.title} />
           </div>
           <div className="flex flex-col ml-4">
             <p className="mb-2 text-left text-md font-medium">{video.title}</p>

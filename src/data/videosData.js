@@ -6,9 +6,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
     ],
     subtitle: "By Blender Foundation",
-    imageURL:
-      "https://i.ytimg.com/vi/I94fhjQ-U30/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA4xDHbEqpgu8kJ_Kq7xVAVCoOZTg",
-    thumb: "images/BigBuckBunny.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
     title: "Big Buck Bunny",
     id: "1",
   },
@@ -18,9 +17,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
     ],
     subtitle: "By Blender Foundation",
-    imageURL:
-      "https://i.ytimg.com/vi/Lrh3kJoGYX0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDooJiKIMlIqMOqAM9Av_AZcQ_zzQ",
-    thumb: "images/ElephantsDream.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
     title: "Elephant Dream",
     id: "2",
   },
@@ -31,9 +29,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     ],
     subtitle: "By Google",
-    imageURL:
-      "https://i.ytimg.com/vi/CTZ0ylAudZI/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCQFOwDVG4mFYL6gb0-qm_C4mQRnA",
-    thumb: "images/ForBiggerBlazes.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg",
     title: "For Bigger Blazes",
     id: "3",
   },
@@ -44,9 +41,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
     ],
     subtitle: "By Google",
-    imageURL:
-      "https://i.ytimg.com/vi/ZiJgkQLunUM/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIGZPFaclsc_fatH3S1KbzMsKnTA",
-    thumb: "images/ForBiggerEscapes.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
     title: "For Bigger Escape",
     id: "4",
   },
@@ -57,9 +53,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
     ],
     subtitle: "By Google",
-    imageURL:
-      "https://i.ytimg.com/vi/lz1-1Q8Gync/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtUgo_Ff8EHdjGNQaHbGL2MmI-Yw",
-    thumb: "images/ForBiggerFun.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg",
     title: "For Bigger Fun",
     id: "5",
   },
@@ -70,9 +65,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
     ],
     subtitle: "By Google",
-    imageURL:
-      "https://i.ytimg.com/vi/8VDW7QRdaOo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN-lbzh4WMhdiq4qecUeUaftchcQ",
-    thumb: "images/ForBiggerJoyrides.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg",
     title: "For Bigger Joyrides",
     id: "6",
   },
@@ -83,9 +77,8 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
     ],
     subtitle: "By Google",
-    imageURL:
-      "https://i.ytimg.com/vi/EiiOYwqk3A0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5HpsxKBJ2xbZpEeGmoUckxI5GHA",
-    thumb: "images/ForBiggerMeltdowns.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg",
     title: "For Bigger Meltdowns",
     id: "7",
   },
@@ -96,24 +89,10 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
     ],
     subtitle: "By Blender Foundation",
-    imageURL:
-      "https://i.ytimg.com/vi/HqYjRtDyKGw/hqdefault.jpg?sqp=-oaymwE2CPYBEIoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIF8oTTAP&rs=AOn4CLCAYn9LaMEpOc6k9yGLMMZb5r7lvw",
-    thumb: "images/Sintel.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
     title: "Sintel",
     id: "8",
-  },
-  {
-    description:
-      "Smoking Tire takes the all-new Subaru Outback to the highest point we can find in hopes our customer-appreciation Balloon Launch will get some free T-shirts into the hands of our viewers.",
-    sources: [
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
-    ],
-    subtitle: "By Garage419",
-    imageURL:
-      "https://i.ytimg.com/vi/ys4qAwWgd-w/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoUtjyAPzHysPuqUtdLpufWSyzfw",
-    thumb: "images/SubaruOutbackOnStreetAndDirt.jpg",
-    title: "Subaru Outback On Street And Dirt",
-    id: "9",
   },
   {
     description:
@@ -121,12 +100,11 @@ export const videosData = [
     sources: [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
     ],
-    imageURL:
-      "https://i.ytimg.com/vi/-jyntEmCdpo/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBB6ZUW0b8TZLJPjoq6LNI3NNyXrQ",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg",
     subtitle: "By Blender Foundation",
-    thumb: "images/TearsOfSteel.jpg",
     title: "Tears of Steel",
-    id: "10",
+    id: "9",
   },
   {
     description:
@@ -135,11 +113,10 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
     ],
     subtitle: "By Garage419",
-    imageURL:
-      "https://i.ytimg.com/vi/u823oe4iF-o/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6lE2nQqaxjSLVoknGp9iFznwIGg",
-    thumb: "images/VolkswagenGTIReview.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/VolkswagenGTIReview.jpg",
     title: "Volkswagen GTI Review",
-    id: "11",
+    id: "10",
   },
   {
     description:
@@ -148,23 +125,9 @@ export const videosData = [
       "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
     ],
     subtitle: "By Garage419",
-    imageURL:
-      "https://i.ytimg.com/vi/O1RpPG7Kb1s/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAP4BaCclrTBvQFN-EFf9S3aowsUg",
-    thumb: "images/WeAreGoingOnBullrun.jpg",
+    thumb:
+      "https://storage.googleapis.com/gtv-videos-bucket/sample/images/WeAreGoingOnBullrun.jpg",
     title: "We Are Going On Bullrun",
-    id: "12",
-  },
-  {
-    description:
-      "The Smoking Tire meets up with Chris and Jorge from CarsForAGrand.com to see just how far $1,000 can go when looking for a car.The Smoking Tire meets up with Chris and Jorge from CarsForAGrand.com to see just how far $1,000 can go when looking for a car.",
-    sources: [
-      "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
-    ],
-    subtitle: "By Garage419",
-    imageURL:
-      "https://i.ytimg.com/vi/R-sh3kfdHQ4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTULLsOCW9z9K22ae9MpiDt3dzvQ",
-    thumb: "images/WhatCarCanYouGetForAGrand.jpg",
-    title: "What care can you get for a grand?",
-    id: "13",
+    id: "11",
   },
 ];
