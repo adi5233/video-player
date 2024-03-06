@@ -2,6 +2,8 @@ This is a repository for Rigi's Assignment Solution built using ReactJS.
 
 ## [Live here](https://main--play-videos.netlify.app/)
 
+![Alt text](<Screenshot 2024-03-06 at 5.55.48 PM.png>)
+
 Objective: Create a Video Player application using React.js or Next.js to allow users to play videos from a playlist. The app should support features like seeking, timer, autoplay, and speed selector. Additionally, users should be able to reorder the playlist.
 
 Implemented:
