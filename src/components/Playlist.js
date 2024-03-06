@@ -41,8 +41,6 @@ const Playlist = ({ playlistVideos, onVideoChange }) => {
 
   const playVideo = (video, index) => {
     setCurrentVideoIndex(index);
-    const currentVideo = videos[index];
-    console.log(video.title, video.id);
     onVideoChange?.(video.id);
   };
 
