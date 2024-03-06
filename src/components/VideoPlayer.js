@@ -131,7 +131,7 @@ const VideoPlayer = ({ src, ...props }) => {
         </div>
 
         <div className="flex flex-row w-full md:w-1/4">
-          <div className="flex items-center w-full md:w-auto">
+          <div className="flex items-center w-full md:w-auto text-center justify-center">
             <label className="mx-2 text-sm md:text-md">Volume:</label>
             <input
               type="range"
@@ -145,7 +145,7 @@ const VideoPlayer = ({ src, ...props }) => {
           </div>
 
           <div className="flex items-center w-full md:w-auto ml-2 md:ml-0 mt-2 md:mt-0">
-            <label className="mr-2 text-sm md:text-md">Speed:</label>
+            <label className="mx-2 text-sm md:text-md">Speed:</label>
             <select
               value={playbackSpeed}
               onChange={handleSpeedChange}
