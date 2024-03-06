@@ -8,7 +8,7 @@ const VideoItem = ({ video, index, currentVideoIndex, onClick, provided }) => {
       {...provided.draggableProps}
       {...provided.dragHandleProps}
       className={`border-2 mb-2 h-24 ${
-        index === currentVideoIndex ? "bg-zinc-200" : ""
+        video.id === currentVideoIndex ? "bg-zinc-200" : ""
       }`}
     >
       <div
@@ -17,8 +17,13 @@ const VideoItem = ({ video, index, currentVideoIndex, onClick, provided }) => {
         className="flex flex-row text-center justify-start p-2"
       >
         <div className="flex items-center p-2 mr-1">
-          <img src="/drag.svg" className="h-5 w-5 hidden" alt="Play" />
-          <span className="list-index w-5">{index + 1}</span>
+          <img src="/drag.svg" className="h-5 w-5 hidden" alt="drag" />
+
+          {video.id === currentVideoIndex ? (
+            <img src="/play.svg" className="h-3 w-5 list-index" alt="play" />
+          ) : (
+            <span className="list-index w-5">{index + 1}</span>
+          )}
         </div>
         <div className="flex">
           <div className="flex items-center">
@@ -40,7 +45,7 @@ const Playlist = ({ playlistVideos, onVideoChange }) => {
   const [searchQuery, setSearchQuery] = useState("");
 
   const playVideo = (video, index) => {
-    setCurrentVideoIndex(index);
+    setCurrentVideoIndex(video.id);
     onVideoChange?.(video.id);
   };
 
