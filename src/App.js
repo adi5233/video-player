@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
-  const [videos, setVideos] = useState(videosData);
+  const [videos] = useState(videosData);
 
   const handleVideoChange = (index) => {
     setCurrentVideoIndex(index);
