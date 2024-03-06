@@ -6,11 +6,12 @@ import VideoDetails from "./components/VideoDetails";
 import "./App.css";
 
 function App() {
-  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [videos] = useState(videosData);
+  const [currentVideo, setCurrentVideo] = useState(videosData[0]);
 
-  const handleVideoChange = (index) => {
-    setCurrentVideoIndex(index);
+  const handleVideoChange = (id) => {
+    const video = videos.find((video) => video.id === id);
+    setCurrentVideo(video);
   };
 
   return (
@@ -24,8 +25,8 @@ function App() {
         <div className="md:col-span-2 rounded-lg">
           {videos.length > 0 ? (
             <>
-              <VideoPlayer src={videos[currentVideoIndex]?.sources[0]} />
-              <VideoDetails video={videos[currentVideoIndex]} />
+              <VideoPlayer src={currentVideo?.sources[0]} />
+              <VideoDetails video={currentVideo} />
             </>
           ) : (
             <p>No videos available</p>

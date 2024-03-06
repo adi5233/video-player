@@ -39,9 +39,11 @@ const Playlist = ({ playlistVideos, onVideoChange }) => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
 
-  const playVideo = (index) => {
+  const playVideo = (video, index) => {
     setCurrentVideoIndex(index);
-    onVideoChange?.(index);
+    const currentVideo = videos[index];
+    console.log(video.title, video.id);
+    onVideoChange?.(video.id);
   };
 
   const handleDragEnd = (result) => {
@@ -100,7 +102,7 @@ const Playlist = ({ playlistVideos, onVideoChange }) => {
                         video={video}
                         index={index}
                         currentVideoIndex={currentVideoIndex}
-                        onClick={() => playVideo(index)}
+                        onClick={() => playVideo(video, index)}
                         provided={provided}
                       />
                     )}

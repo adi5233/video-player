@@ -76,7 +76,7 @@ const VideoPlayer = ({ src, ...props }) => {
   };
 
   return (
-    <div className="video-container flex flex-col h-">
+    <div className="video-container flex flex-col bg-gray-100">
       <div className="video-play relative">
         <video
           {...props}
@@ -90,9 +90,17 @@ const VideoPlayer = ({ src, ...props }) => {
         <div>
           <button onClick={handlePlayPause} className="cursor-pointer p-1">
             {isPlaying ? (
-              <img src="/play.svg" className="h-4 w-4" alt="Play" />
+              <img
+                src="/play.svg"
+                className="h-5 md:h-4 w-5 md:w-5"
+                alt="Play"
+              />
             ) : (
-              <img src="/pause.svg" className="h-4 w-4" alt="Pause" />
+              <img
+                src="/pause.svg"
+                className="h-5 md:h-4 w-5 md:w-5"
+                alt="Pause"
+              />
             )}
           </button>
         </div>
@@ -107,11 +115,11 @@ const VideoPlayer = ({ src, ...props }) => {
           />
         </div>
         <div className="flex items-center mx-2">
-          <span>{formatTime(currentTime)}</span> /{" "}
-          <span>{formatTime(duration)}</span>
+          <span className=" text-sm md:text-md">{formatTime(currentTime)}</span>{" "}
+          / <span className=" text-sm md:text-md">{formatTime(duration)}</span>
         </div>
         <div className="flex items-center">
-          <label className="mr-2">Speed:</label>
+          <label className="mr-2 text-sm md:text-md">Speed:</label>
           <select
             value={playbackSpeed}
             onChange={handleSpeedChange}
