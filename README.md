@@ -1,43 +1,39 @@
-This is a repository for Dukaan's Assignment Solution built using ReactJS and Vite
+This is a repository for Rigi's Assignment Solution built using ReactJS.
 
-## [Live here](https://dukaan-payouts-dashboard.netlify.app/)
+## [Live here](https://main--play-videos.netlify.app/)
 
-## Prerequisites
+Objective: Create a Video Player application using React.js or Next.js to allow users to play videos from a playlist. The app should support features like seeking, timer, autoplay, and speed selector. Additionally, users should be able to reorder the playlist.
 
-Node version 18.7.x
+Implemented:
 
-## Cloning the repository
+1. Video Player Component:
 
-```shell
-git clone https://github.com/adi5233/dukaan-dashboard/tree/main
+   - Implement a video player with essential functionalities:
+   - Play/Pause toggle.
+   - Seek functionality.
+   - Timer displaying current playback time and duration.
+   - Autoplay - as per the chrome policy video has to be muted to use autoplay
+   - Speed selector for playback speed adjustment.
 
-```
+2. Playlist Component:
 
-## Install packages
+   - Develop a playlist component to display and manage videos.
+   - Allow users to reorder videos in the playlist.
+   - Clicking on a video in the playlist should load and play that video in the video player.
+   - used 'react-beautiful-dnd' library for re-ordering.
+   - search/filter functionality for the playlist.
 
-```shell
-npm i
-```
+3. Styling:
 
-## Start the dev server
+   - Utilize Tailwind CSS or styled-components for styling.
 
-```shell
-npm run dev
-```
+4. Tech Stack:
 
-## Build the page
+   - React.js
+   - Tailwind CSS
 
-```shell
-npm run build
-```
-
-This is a repository for Dukaan's Assignment Solution built using ReactJS and Vite
-
-## [Live here](https://dukaan-payouts-dashboard.netlify.app/)
-
-## Prerequisites
-
-Node version 18.7.x
+5. Bonus Features
+   - Implemented volume control for video player, thumbnail previews, or search/filter functionality for the playlist
 
 ## Cloning the repository
 
@@ -55,11 +51,5 @@ npm i
 ## Start the dev server
 
 ```shell
-npm run dev
-```
-
-## Build the page
-
-```shell
-npm run build
+npm start
 ```
