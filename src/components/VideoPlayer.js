@@ -76,7 +76,7 @@ const VideoPlayer = ({ src, ...props }) => {
   };
 
   return (
-    <div className="flex flex-col bg-gray-50">
+    <div className="flex flex-col bg-gray-100">
       <div className="video-play relative">
         <video
           {...props}
