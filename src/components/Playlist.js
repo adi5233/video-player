@@ -19,7 +19,7 @@ const VideoItem = ({ video, index, currentVideoIndex, onClick, provided }) => {
         <div className="flex items-center p-2 mr-1">
           <img src="/drag.svg" className="h-5 w-5 hidden" alt="drag" />
 
-          {video.id === currentVideoIndex ? (
+          {video.id == currentVideoIndex ? (
             <img src="/play.svg" className="h-3 w-5 list-index" alt="play" />
           ) : (
             <span className="list-index w-5">{index + 1}</span>
