@@ -10,13 +10,6 @@ const VideoPlayer = ({ src, ...props }) => {
 
   useEffect(() => {
     const video = videoRef.current;
-    if (!video) return;
-
-    // Accroding to new chrome policy, video has to be muted inorder to use autoplay.
-    // comment out it for using autoplay -
-    // video.muted = true;
-    // video.autoPlay = true;
-    // video.play();
 
     const handleTimeUpdate = () => {
       setCurrentTime(video.currentTime);
@@ -89,6 +82,7 @@ const VideoPlayer = ({ src, ...props }) => {
           {...props}
           ref={videoRef}
           src={src}
+          autoPlay
           onClick={handlePlayPause}
           className="w-full h-auto"
         />
