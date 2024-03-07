@@ -8,7 +8,7 @@ const VideoItem = ({ video, index, currentVideoIndex, onClick, provided }) => {
       {...provided.draggableProps}
       {...provided.dragHandleProps}
       className={`border-2 mb-2 h-24 ${
-        video.id === currentVideoIndex ? "bg-zinc-200" : ""
+        video.id == currentVideoIndex ? "bg-zinc-200" : ""
       }`}
     >
       <div
