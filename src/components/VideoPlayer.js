@@ -76,7 +76,7 @@ const VideoPlayer = ({ src, ...props }) => {
   };
 
   return (
-    <div className="flex flex-col bg-gray-100">
+    <div className="flex flex-col bg-gray-50">
       <div className="video-play relative">
         <video
           {...props}
@@ -87,7 +87,7 @@ const VideoPlayer = ({ src, ...props }) => {
           className="w-full h-auto"
         />
       </div>
-      <div className="flex flex-col md:flex-row bg-gray-200 p-1">
+      <div className="flex flex-col md:flex-row p-1">
         <div className="flex flex-row w-full md:w-3/4 text-center justify-center items-center">
           <div className="mr-2">
             <button onClick={handlePlayPause} className="cursor-pointer p-1">
@@ -143,7 +143,7 @@ const VideoPlayer = ({ src, ...props }) => {
             <select
               value={playbackSpeed}
               onChange={handleSpeedChange}
-              className="p-1 border border-gray-300 rounded w-full md:w-auto outline-none"
+              className="p-1 rounded w-full md:w-auto outline-none"
             >
               <option value={0.5}>0.5x</option>
               <option value={1}>1x</option>
